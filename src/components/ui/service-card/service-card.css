@@ -1,0 +1,36 @@
+.service-card {
+  display: block;
+  height: 100%;
+  text-decoration: none;
+}
+
+.service-card > * {
+  height: 100%;
+}
+
+.service-card [data-slot='card'] {
+  justify-content: center;
+}
+
+.service-card__icon {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 14px;
+  background: rgba(17, 140, 250, 0.12);
+  color: var(--accent);
+  margin: 0 auto;
+}
+
+.service-card__icon svg {
+  width: 24px;
+  height: 24px;
+}
+
+@media (max-width: 640px) {
+  .service-card__title {
+    font-size: 12px;
+  }
+}

@@ -20,9 +20,11 @@ export default function Header() {
 
       <img src={logo} alt="logo" className="logo__img" />
 
-      <Button variant="accent">
-        <MessageCircleCheck />
-        Manager
+      <Button variant="accent" asChild>
+        <a href="https://t.me/bring_g" target="_blank" rel="noopener noreferrer">
+          <MessageCircleCheck />
+          Manager
+        </a>
       </Button>
     </header>
   );

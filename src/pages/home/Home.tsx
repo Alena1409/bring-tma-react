@@ -1,10 +1,13 @@
 import ServiceCard from '@/components/ui/service-card/service-card';
 import servicesData from '@/data/services-data';
 import './Home.css';
+import Media from '@/components/ui/media/media';
 
 export default function Home() {
   return (
-    <section className="home">
+    <>
+    <Media />
+    <section className="home__grid">
       {servicesData.map((item) => (
         <ServiceCard
           key={item.id}
@@ -14,5 +17,6 @@ export default function Home() {
         />
       ))}
     </section>
+    </>
   );
 }

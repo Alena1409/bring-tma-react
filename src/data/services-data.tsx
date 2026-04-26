@@ -7,7 +7,7 @@ import {
   HeartPlus,
   Earth,
   Signpost,
-  SignpostBig,
+  Route,
   Building2,
   Hammer,
   ListCheck
@@ -98,7 +98,7 @@ const servicesData = [
   {
     id: 'ukraine_ge',
     title: 'Украина ↔ Грузия',
-    icon: SignpostBig,
+    icon: Route,
     description: 'Перевозка любых грузов по отработанным маршрутам.',
     features: [
       'Доставка 15-30 дней',
